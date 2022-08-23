@@ -42,7 +42,7 @@ futures-lite="1.12.0"
 
 # actix = "0.11.0" # actix: ergonomic actor framework
 # actix-rt = "2.2" # <-- Runtime for actix
-# async-trait = "0.1.56" # macro to write `async fn` inside traits
+async-trait="0.1.56" # macro to write `async fn` inside traits
 # crossbeam = "0.8.6" # concurrency tool subcrates
 # crossbeam_channel = "0.5.6" # more flexible & performant channels
 # tokio-stream = "0.1.9" # tokio 1.0 didn't ship with stream utilities
@@ -52,7 +52,9 @@ futures-lite="1.12.0"
 
 # Logging
 tracing           ="0.1"
-tracing-subscriber={ version="0.3", features=["env-filter", "fmt"] }
+tracing-subscriber={ version="0.3", features=["env-filter", "fmt"] } # your dependencies start here
+pin-project       ="1.0.11"
+# try
 
 # Your dependencies
 
