@@ -63,7 +63,7 @@ pin-project       ="1.0.11"
 
 [dev-dependencies]
 # Bench
-criterion="0.3"
+criterion="0.4"
 iai      ="0.1" # criterion alternative
 
 # Testing utils
