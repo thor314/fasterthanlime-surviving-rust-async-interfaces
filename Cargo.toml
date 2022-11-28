@@ -71,7 +71,7 @@ arbitrary        ={ version="1.1", features=["derive"] }                        
 test-log         ={ version="0.2", default-features=false, features=["trace"] }
 quickcheck       ="1.0"                                                         # lowkey proptest suite
 quickcheck_macros="1"                                                           # derive 
-rstest           ="0.15"                                                        # testing convenience proc-macros
+rstest           ="0.16"                                                        # testing convenience proc-macros
 
 [[test]]
 name="integration"
